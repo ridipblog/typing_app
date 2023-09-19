@@ -1,0 +1,74 @@
+.heading {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
+}
+
+
+.main_div {
+    width: 100%;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.result_div {
+    width: 30%;
+}
+
+.tool_div {
+    width: 68%;
+
+}
+
+.main_div textarea {
+    width: 100%;
+    resize: none;
+    border: 2px solid black;
+    height: 200px;
+}
+
+/* .main_div button {
+    border: 1px solid black;
+    background: none;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 30px;
+    cursor: pointer;
+} */
+.performance_div {
+    width: 100%;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.performance_div_1 {
+    width: 45%;
+}
+
+.btn_div {
+    width: 45%;
+}
+
+.performance_div_1 p {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn_div button {
+    border: 1px solid black;
+    background: none;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 30px;
+    cursor: pointer;
+}

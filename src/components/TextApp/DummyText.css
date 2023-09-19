@@ -1,0 +1,8 @@
+.dummyTextDiv {
+    width: 100%;
+}
+
+.dummyTextDiv p {
+    width: 90%;
+    text-align: justify;
+}
